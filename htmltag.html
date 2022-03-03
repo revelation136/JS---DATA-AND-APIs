@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" id="htmltag" width="300">
+</body>
+<script>
+    // about to fetch a blob
+    console.log('about to fetch a blob')
+    fetch('htmltag.png')
+        .then(response => {
+            console.log(response)
+            // as you can see in the console, response show many attritubes/properties and blob is one of it. so, we're going to return the blob   
+            return response.blob();
+        })
+        // after that, blob will be a function/variable
+        .then(blob => {
+            console.log(blob);
+            document.querySelector('#htmltag').src = URL.createObjectURL(blob);
+        })
+</script>
+</html>
