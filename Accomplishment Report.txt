@@ -1,0 +1,95 @@
+Feb 2, 2022: Weather (AM/PM): Cloudy/Cloudy
+	- Installation of Rebars (Footing and Pedestal) 1-E, 1-F, 1-G
+	- Gravel Bedding 1-G
+	- Concrete Pouring 1-E
+	- Fabrication of Ties for Pedestal
+Feb 3, 2022: Weather (AM/PM): Cloudy/Cloudy
+	- Preparation for next concrete pouring (sacking of gravel and sand)
+	- Fabrication of Footing and Pedestal
+	- Backfill of Excavated holes
+Feb 4, 2022: Weather (AM/PM): Rainshower/Cloudy
+	- Backfill Compaction
+	- Fabrication of Footing and Pedestal
+Feb 5, 2022: Weather (AM/PM): Cloudy/Cloudy
+	- Excavation of Guard House foundation
+	- Excavation FTB (Continuation)
+	- Steel Reinforcements for Septic Vault
+Feb 7, 2022: Weather (AM/PM): Sunny/Sunny
+	- Concrete Pouring Septic Vault Flooring
+	- Excavation of Guard House Foundation (Continuation)
+	- Sacking of Sand and Gravel
+Feb 8, 2022: Weather (AM/PM): Sunny/Sunny
+	- Concrete Pouring Column Footing (2)
+	- Excation of Guard House underneath canal
+	- Sacking of Sand and Gravel
+	- Installation of Footing and Column rebars
+Feb 9, 2022: Weather (AM/PM): Cloudy/Sunny
+	- Concrete Pouring Column Footing (2)
+	- Excavation FTB (Continuation)
+	- Installation of Rebars @ Guard House preparation for concrete pouring
+Feb 10, 2022: Weather (AM/PM): Cloudy/Sunny
+	- Piling CHB Septic Vault
+	- Pouring of Canal and Installation of Steel tube
+	- Excavation FTB (Continuation)
+Feb 11, 2022: Weather (AM/PM): Cloudy/Sunny
+	- Concrete Pouring Footing (1)
+	- Piling of CHB Septic Vault
+	- Installation of Rebars Guard House
+	- Excavation FTB (Continuation)
+Feb 12, 2022: Weather (AM/PM): Rainshower/ Cloudy
+	- Excavation FTB (Continuation)
+	- Piling of CHB Guard House
+Feb 14, 2022: Weather (AM/PM): Sunny/Sunny
+	- Embankment on Guard House with Gravel Bedding
+	- Installation of Rebars
+	- Concrete Pouring
+	- Installation of Purlins
+Feb 15, 2022: Weather (AM/PM): Sunny/Sunny
+	- Plastering of Guard House
+	- Installation of Roof
+	- Installation of Foremast
+Feb 16, 2022: Weather (AM/PM): Sunny/Sunny
+	- Removing of Walls in Container Van
+	- Concrete Pouring on Pedestal L/2
+Feb 17, 2022: Weather (AM/PM): Sunny/Sunny
+	- Fabrication of Stirrups FTB
+	- Excavation of FTB
+Feb 18, 2022: Weather (AM/PM): Sunny/Sunny
+	- Fabrication of Stirrups FTB
+	- Gravel Bedding on FTB
+Feb 19, 2022: Weather (AM/PM): Rainy/Rainy
+	- Unworkable Situation
+Feb 21, 2022: Weather (AM/PM): Cloudy/ Cloudy
+	- Concrete Pouring on Footing (2)
+	- Installing of Foremast
+Feb 22, 2022: Weather (AM/PM): Sunny/Rainshower
+	- Installing of Foremast
+	- Embankment
+	- Realigning of Level
+	- Concrete Pouring on Pedestal (4)
+Feb 23, 2022: Weather (AM/PM): Cloudy/Sunny
+	- Excavation of Floor Elevation
+	- Installing of Foremast on Pedestal
+Feb 24, 2022: Weather (AM/PM): Cloudy/Sunny
+	- Embankment of Foundation
+	- Installing of Foremast on Pedestal
+	- Concrete Pouring on Pedestal
+Feb 25, 2022: Weather (AM/PM): Rainy/Rainy
+	- Embankment on Foundation
+	- Installing of Rebars for FTB
+Feb 26, 2022: Weather (AM/PM): Cloudy/Sunny
+	- Embankment on Foundation
+	- Installing of Rebars for FTB
+Feb 28, 2022: Weather (AM/PM): Sunny/Sunny
+	- Embankment on Foundation
+	- Installing of Rebars for FTB
+March 1, 2022: Weather (AM/PM): Sunny/Sunny
+	- Embankment on Foundation
+	- Installing of Rebars for FTB
+March 2, 2022: Weather (AM/PM): Sunny/Sunny
+	- Embankment on Foundation
+	- Installing of Rebars for FTB
+	- Installing of Anchor Bolts
+March 3, 2022: Weather (AM/PM): Sunny/Sunny
+	- Installing of Rebars for FTB
+	- Installing of Anchor Bolts
