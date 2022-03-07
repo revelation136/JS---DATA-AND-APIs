@@ -14,9 +14,13 @@ async function getAPI_DATA_ISS() {
 
     document.querySelector('#lat').textContent = latitude;
     document.querySelector('#lon').textContent = longitude;
+
+    for (const x in data) {
+        console.log(`${x}: ${data[x]}`)
+    }
 }
 
 getAPI_DATA_ISS();
 
 // Reloading the page every 5 sec
-setInterval('window.location.reload()', 5000);
+// setInterval('window.location.reload()', 5000);
