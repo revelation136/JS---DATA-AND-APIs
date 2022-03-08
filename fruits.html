@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <button>Populate</button>
+        <select></select>
+    </div>
+</body>
+<script>
+    let btnPopulate = document.querySelector('button');
+    let select = document.querySelector('select');
+
+    let fruits  = ['Banana', 'Grapes', 'Kiwi', 'Mango', 'Orange'];
+
+    btnPopulate.addEventListener('click', () =>{
+        // .map will convert the array of string into array of options
+    let options = fruits.map(fruit => `<option value=${fruit.toLowerCase()}>${fruit}</option>`).join('/n');
+
+    select.innerHTML = options;
+    });
+</script>
+</html>

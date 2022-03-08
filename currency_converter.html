@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    }
+
+    select {
+    width: 120px;
+    }
+</style>
+<body>
+    <div class="container">
+        <select name="" id=""></select>
+    </div>
+</body>
+<script>
+    const url = 'https://api.exchangerate.host/latest';
+
+    let select = document.querySelector('select');
+
+    async function getApi() {
+        let response = await fetch(url);
+        let data = await response.json();
+
+        return data.rates;
+    }
+
+    getApi().then(rates => {
+        console.log(Object.keys(rates));
+        let options = Object.keys(rates).map(currency => `<option value=${currency}>${currency}</option>`).join('/n');
+        
+        select.innerHTML = options;
+    })
+</script>
+</html>
