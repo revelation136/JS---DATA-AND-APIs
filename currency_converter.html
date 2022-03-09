@@ -36,8 +36,11 @@
         return data.rates;
     }
 
+    // using .then when calling the function is the method that after the API load it will process next
     getApi().then(rates => {
         console.log(Object.keys(rates));
+        // .map changing from array of keys to array of option
+        // Object.keys() - getting keys from object, can also use Object.values()
         let options = Object.keys(rates).map(currency => `<option value=${currency}>${currency}</option>`).join('/n');
         
         select.innerHTML = options;

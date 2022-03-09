@@ -14,6 +14,7 @@
     async function getImage() {
         const response = await fetch('htmltag.png');
         const blob = await response.blob();
+        // URL.createObjectURL - converting the blob into image DOM
         document.querySelector('#htmltag').src = URL.createObjectURL(blob);
     }
 
