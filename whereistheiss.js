@@ -8,19 +8,26 @@ async function getAPI_DATA_ISS() {
 
     // Deconstructing in JS (Separating lat and lon to individual Variable)
     const {latitude, longitude} = data;
-    console.log(data);
-    console.log(latitude);
-    console.log(longitude);
+    // console.log(data);
+    // console.log(latitude);
+    // console.log(longitude);
 
     document.querySelector('#lat').textContent = latitude;
     document.querySelector('#lon').textContent = longitude;
 
-    for (const x in data) {
-        console.log(`${x}: ${data[x]}`)
-    }
+    // for (const x in data) {
+    //     console.log(`${x}: ${data[x]}`)
+    // }
+
+    // JS can't return multiple values, but can return an array thru object type
+    return { longitude, latitude };
 }
 
-getAPI_DATA_ISS();
+getAPI_DATA_ISS().then(x => {
+    console.log(x.latitude);
+})
+
+
 
 // Reloading the page every 5 sec
 // setInterval('window.location.reload()', 5000);
