@@ -46,9 +46,9 @@ async function getAPI_DATA_ISS() {
         return { longitude, latitude };
     }
     
-    
+    // returning latitude
     getAPI_DATA_ISS().then(x => {
-        console.log(x.latitude);
+        console.log(x.longitude);
     })
     
     
